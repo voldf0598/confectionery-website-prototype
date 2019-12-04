@@ -39,7 +39,6 @@ h1 {
 }
 
 nav {
-  nav {
   text-align: center;
   display: block;
   margin: 0;
@@ -56,6 +55,7 @@ a:hover {
 ul {
   padding-left: 0;
   margin: .1em;
+  text-decoration: none;
 }
 
 ul li {
@@ -64,4 +64,9 @@ ul li {
   display: inline;
   text-align: left;
 }
+
+a {
+  text-decoration: none;
+  color: #e2e2e2;
+
 }
