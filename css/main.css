@@ -19,7 +19,7 @@ html {
 }
 
 header {
-  /* background-color: #ffe500; */
+  background-color: #999;
   margin: 0;
   padding-bottom: .5em;
   line-height: 1.5;
@@ -30,10 +30,38 @@ body {
 }
 
 h1 {
-  font-family: "Sigmar One", cursive;
-  /* color: #b20953; */
+  font-family: 'Raleway', sans-serif;
+  color: #e2e2e2;
   text-align: center;
   font-size: 3em;
   margin: 0;
   margin-bottom: .1em;
+}
+
+nav {
+  nav {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+nav ol {
+  text-align: left;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+ul {
+  padding-left: 0;
+  margin: .1em;
+}
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  text-align: left;
+}
 }
