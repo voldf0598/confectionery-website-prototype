@@ -78,16 +78,77 @@ a:hover {
   color: #ccc;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 img {
   display: block;
   width: 100%;
 }
 
+figcaption {
+  font-family: 'Raleway', sans-serif;
+  font-size: .875rem;
+  text-align: center;
+}
+
+.one {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.two {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.three {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.four {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translateX(-50%);
+}
+
+section {
+  position: absolute;
+  left: 60%;
+  top: 80%;
+  transform: translateX(-50%);
+}
+
+.we {
+  text-align: right;
+}
+
 footer {
   background-color: #aaa;
   text-align: center;
-  color: #e2e2e2;
   padding: 1em;
+}
+
+small {
+  color: #e2e2e2;
 }
 
 @media only screen and (min-width: 25em) {
@@ -100,6 +161,14 @@ footer {
   a {
     display: inline-block;
     text-align: center;
+    padding: .4em;
+    margin: .1em;
+  }
+
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25em;
   }
 
 }
@@ -137,7 +206,6 @@ footer {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
 }
