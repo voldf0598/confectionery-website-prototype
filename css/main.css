@@ -121,10 +121,10 @@ h2 {
   font-family: "Dancing Script", cursive;
 }
 
-p {
+section {
   position: absolute;
   left: 75%;
-  top: 65%;
+  top: 70%;
   transform: translateX(-50%);
   font-family: Raleway, sans-serif;
   color: #f2f2f2;
@@ -140,9 +140,6 @@ p {
 .btn-small {
   margin-top: 3rem;
   margin-bottom: 1rem;
-}
-.btn:hover {
-  background-color: #ccc;
 }
 
 footer {
@@ -175,7 +172,33 @@ small {
     max-width: 25em;
   }
 
+  section {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    font-family: Raleway, sans-serif;
+    color: #f2f2f2;
+  }
+
+  h2 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    font-family: "Dancing Script", cursive;
+  }
+
+  .btn-small {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 9.5rem;
+  }
+
 }
+
 
 @media only screen and (min-width: 38em) {
 
