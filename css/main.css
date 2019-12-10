@@ -270,6 +270,11 @@ small {
     max-width: 50em;
   }
 
+  figcaption {
+    max-width: 57em;
+    text-align: center;
+  }
+
   figure {
     text-align: center;
     display: inline-block;
@@ -281,6 +286,15 @@ small {
 
   html {
     font-size: 130%;
+  }
+
+  .top {
+    max-width: 60em;
+  }
+
+  figcaption {
+    max-width: 68em;
+    text-align: center;
   }
 
 }
