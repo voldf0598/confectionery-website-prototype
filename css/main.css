@@ -121,18 +121,18 @@ h2 {
   font-family: "Dancing Script", cursive;
 }
 
-section {
+p {
   position: absolute;
   left: 75%;
-  top: 70%;
+  top: 65%;
   transform: translateX(-50%);
   font-family: Raleway, sans-serif;
-  color: #f2f2f2;
+  background-color: rgba(150, 150, 150 .5);
 }
 
 .yum {
   text-align: center;
-  background-color: #999;
+  background-color: rgba(150, 150, 150, .5);
   padding: .5rem;
   border-radius: 3px;
 }
@@ -169,21 +169,21 @@ small {
   img {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  p {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    font-family: Raleway, sans-serif;
+    background-color: rgba(245, 245, 245, .5);
     max-width: 25em;
   }
 
-  section {
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translateX(-50%);
-    font-family: Raleway, sans-serif;
-    color: #f2f2f2;
-  }
-
   h2 {
-    display: inline-block;
+    display: block;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -195,6 +195,7 @@ small {
     margin-top: 3rem;
     margin-bottom: 1rem;
     margin-left: 9.5rem;
+    align-items: center;
   }
 
 }
@@ -207,6 +208,32 @@ small {
     line-height: 1.4;
   }
 
+  img {
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 38em;
+    justify-content: center;
+  }
+
+  p {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    font-family: Raleway, sans-serif;
+    background-color: rgba(245, 245, 245, .5);
+  }
+
+  h2 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    font-family: "Dancing Script", cursive;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -214,6 +241,7 @@ small {
   html {
     font-size: 120%;
     line-height: 1.5;
+    max-width: 60em;
   }
 
   h1 {
